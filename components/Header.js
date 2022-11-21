@@ -48,7 +48,7 @@ const Header = () => {
     <header>
       <nav className='bg-[#fff] px-4 lg:px-6 py-2.5 dark:bg-[#252e42]'>
         <div className='flex flex-wrap justify-between items-center mx-auto max-w-screen-xl'>
-          <a href='#' target='_blank' className='flex items-center m-0'>
+          <a href='#' rel='noopener' className='flex items-center m-0'>
             <img
               src='free.png'
               className='mr-3 sm:h-9 rounded-full'
@@ -61,7 +61,7 @@ const Header = () => {
           <div className='flex items-center lg:order-2'>
             <a
               href='https://twitter.com/0xfreepearl '
-              target='blank'
+              rel='noopener'
               className='text-[#252e42] dark:text-white hover:bg-gray-50  font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800'
             >
               Twitter
@@ -70,7 +70,7 @@ const Header = () => {
 
             <a
               href='#'
-              target='_blank'
+              rel='noopener'
               className='text-gray-800 dark:text-white hover:bg-gray-50 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800'
             >
               Linkedin
@@ -78,7 +78,7 @@ const Header = () => {
             </a>
             <a
               href='https://github.com/ozgurtutarr?tab=repositories'
-              target='_blank'
+              rel='noopener'
               className='text-gray-800 dark:text-white hover:bg-gray-50 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800'
             >
               GitHub

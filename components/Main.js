@@ -30,14 +30,14 @@ const Main = () => {
           <div class='flex justify-center items-center'>
             <a
               href='https://github.com/ozgurtutarr/whitelist-dapp'
-              target='_blank'
+              rel='noopener'
               class='inline-flex items-center justify-center m-2 px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
             >
               <FontAwesomeIcon icon={faGithub} class='mx-2 m-auto ' />
             </a>
             <a
               href='https://whitelist-dapp-orcin.vercel.app/'
-              target='_blank'
+              rel='noopener'
               className='inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
             >
               <FontAwesomeIcon icon={faGlobe} class='mx-2 m-auto ' />
